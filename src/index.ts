@@ -15,8 +15,9 @@ export default {
 		})
 
 		const posts = await prisma.post.findMany()
+		const body = JSON.stringify(posts, null, 2)
 
-		return new Response(JSON.stringify(posts), {
+		return new Response(body, {
 			headers: {
 				"content-type": "application/json;charset=UTF-8"
 			}
