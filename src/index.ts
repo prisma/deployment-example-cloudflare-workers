@@ -9,7 +9,7 @@ export default {
 		const prisma = new PrismaClient({
 			datasources: {
 				db: {
-					url: env.DATABASE_URL
+					url: env.DIRECT_DATABASE_URL
 				}
 			}
 		})
