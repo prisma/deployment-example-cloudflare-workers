@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client/edge";
 
 export interface Env {
-	DATABASE_URL: string;
+	DIRECT_DATABASE_URL: string;
 }
 
 export default {
