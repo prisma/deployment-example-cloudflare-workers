@@ -3,4 +3,4 @@ main = "src/index.ts"
 compatibility_date = "2023-05-18"
 
 [vars]
-DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=API_KEY"
+DIRECT_DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=API_KEY"
